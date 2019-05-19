@@ -1,0 +1,59 @@
+<html>
+
+<head>
+ 
+ </head>
+<body>
+
+ 
+	<input type="file" id="upload", name="fileUpload"/>
+
+	<select>
+<option value="Default">Default</option>	
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+
+
+ 
+<form action="">
+ <input type="radio" name="gender" value="male"/> Male<br>
+  <input type="radio" name="gender" value="female"/> Female <br>
+   <input type="radio" name="gender" value="other"/> Other <br>
+</form>
+<form action="/action_page.php">
+  <input type="checkbox" name="vehicle" value="Bike"> I have a bike<br>
+  <input type="checkbox" name="vehicle" value="Car" > I have a car<br>
+</form>
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="safe_image.gif" alt="Smiley" width="32" height="32">
+
+<script>
+function bigImg(x) {
+    x.style.height = "64px";
+    x.style.width = "64px";
+}
+
+function normalImg(x) {
+    x.style.height = "32px";
+    x.style.width = "32px";
+}
+</script>
+
+<h2>JavaScript Alert</h2>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  alert("I am an alert box!");
+}
+</script>
+
+
+ <input type="submit" value="Submit">
+</body>
+ 
+
+</html>
